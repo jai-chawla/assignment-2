@@ -30,7 +30,7 @@ const ApiCall = () => {
   return (
     <div className=" h-screen flex flex-col justify-center items-center bg-gray-200">
       {details && (
-        <div className="bg-white shadow-lg rounded-md p-8 mb-4 flex w-auto border-4 border-black">
+        <div className="bg-white shadow-lg rounded-md p-8 mb-4 flex w-auto border-4 border-black mx-1">
           {/* Left Column - Image */}
           <div className="w-auto h-auto sm:w-1/3 border-2 border-gray-200 rounded-lg">
             <img
